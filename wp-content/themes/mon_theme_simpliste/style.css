@@ -1,0 +1,103 @@
+/* 
+Theme Name: mon thème simpliste 
+Author: Chris
+Description: c’est un thème simpliste pour WordPress 
+Version 0.1 
+*/
+
+body { 
+   margin: 0; 
+   padding: 0; 
+   font: .8em Verdana, Arial, Helvetica, sans-serif; 
+}
+
+#en-tete, nav, #contenu, footer { 
+   display: table; 
+   width: 960px; 
+   margin: 0 auto; 
+}
+
+
+/* En-tête */ 
+#en-tete { 
+  background-color: #eee; 
+  border-bottom: 1px solid #333; 
+} 
+#en-tete h1 { 
+  margin: 0; 
+  padding: 10px; 
+}
+
+/* Barre de menu */ 
+nav { 
+   border-bottom: 1px solid #333; 
+} 
+nav ul { 
+   list-style: none; 
+   margin: 10px 0 10px 10px; 
+   padding: 0; 
+} 
+nav li { 
+   display: inline-block; 
+   margin-right: 20px; 
+}
+
+
+main, aside { 
+  display: table-cell; 
+}
+
+
+main { 
+  width: 699px; 
+  border-right: 1px solid #333; 
+} 
+aside { 
+  width: 260px; 
+}
+
+/* Les articles en page d’accueil */ 
+article { 
+   border-bottom: 1px dotted; #333; 
+} 
+article header.titre-article a { 
+   text-decoration: none; 
+   font-family: Georgia, "Times New Roman", Times, serif; 
+   font-size: 1.5em; 
+   color: #000; 
+}
+
+/* Mise en forme de la sidebar */ 
+aside ul { 
+  list-style: none; 
+  margin: 10px 0 10px 10px; 
+  padding: 0; 
+}
+
+/* Le pied de page */ 
+footer { 
+  background-color: #eee; 
+  border-top: 1px solid #333; 
+} 
+footer h2 { 
+  margin: 0; 
+  padding: 10px; 
+}
+
+main, aside, #article-seul { 
+  display: table-cell; 
+} 
+main, #article-seul { 
+  width: 699px; 
+  border-right: 1px solid #333; 
+}
+
+/* Les articles en page seule */ 
+.metadata { 
+  font-size: 0.8em; 
+  color: gray; 
+}
+
+.en-tete_page { 
+   font-style: italic; 
+}
